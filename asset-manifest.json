@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/far-away-list/static/css/main.d1b05096.chunk.css",
+    "main.js": "/far-away-list/static/js/main.525da30a.chunk.js",
+    "main.js.map": "/far-away-list/static/js/main.525da30a.chunk.js.map",
+    "runtime~main.js": "/far-away-list/static/js/runtime~main.28671c32.js",
+    "runtime~main.js.map": "/far-away-list/static/js/runtime~main.28671c32.js.map",
+    "static/js/2.49cb00a6.chunk.js": "/far-away-list/static/js/2.49cb00a6.chunk.js",
+    "static/js/2.49cb00a6.chunk.js.map": "/far-away-list/static/js/2.49cb00a6.chunk.js.map",
+    "static/js/3.d62f7fe7.chunk.js": "/far-away-list/static/js/3.d62f7fe7.chunk.js",
+    "static/js/3.d62f7fe7.chunk.js.map": "/far-away-list/static/js/3.d62f7fe7.chunk.js.map",
+    "index.html": "/far-away-list/index.html",
+    "precache-manifest.35831cfda80a72619553441433e906e8.js": "/far-away-list/precache-manifest.35831cfda80a72619553441433e906e8.js",
+    "service-worker.js": "/far-away-list/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/far-away-list/static/css/main.d1b05096.chunk.css.map",
+    "static/media/logo.svg": "/far-away-list/static/media/logo.06e73328.svg"
+  }
+}
