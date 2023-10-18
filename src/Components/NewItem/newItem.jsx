@@ -9,21 +9,25 @@ const NewItem = ({addNewItem}) => {
     function onSubmit(e){
         e.preventDefault();
         addNewItem({quantity: quantity, item: item, id: Math.random()});
+        setItem('');
     }
     
     return (
         <React.Fragment>
         <div className='section1 flex-center'>
-            <form onSubmit={onSubmit}>
+            <form onSubmit={onSubmit} className='new-item-form'>
             <span>What do you need for trip?</span>
-            <select value={quantity} onChange={(e) => setQuantity(e.target.value)}>
+            <select className='qty-dropdown' value={quantity} onChange={(e) => setQuantity(e.target.value)}>
                <option>1</option>
                <option>2</option>
                <option>3</option>
                <option>4</option>
+               <option>5</option>
+               <option>6</option>
+               <option>7</option>
             </select>
-            <input type='text' placeholder='Description..' value={item} onChange={(e) => setItem(e.target.value)}/>
-            <button type='submit' disabled={!item}>Add</button>
+            <input type='text' className='description-input' placeholder='Description..' value={item} onChange={(e) => setItem(e.target.value)}/>
+            <button type='submit' disabled={!item} className='new-item-form-submit-btn'>Add</button>
             </form>
         </div>
         </React.Fragment>

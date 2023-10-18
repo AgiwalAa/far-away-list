@@ -1,0 +1,13 @@
+.cross {
+    padding: 0px;
+    background: transparent;
+    border: none;
+    color: red;
+    font-size: 15px;
+}
+
+.item-row{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}

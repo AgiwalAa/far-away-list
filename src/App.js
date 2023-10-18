@@ -21,11 +21,7 @@ function App() {
   function completeItem(itemId){
     setItems((items) => items.map((x) => {
       if(x.id === itemId){
-        if(x.isCompleted) {
-          x.isCompleted = false;
-        } else {
-          x.isCompleted = true;
-        }
+        x.isCompleted = !x.isCompleted;
       }
       return x;
     }));
@@ -33,7 +29,6 @@ function App() {
    
   const isCompletedItems = items.filter((x) => x.isCompleted == true);
   const percentage = isCompletedItems.length !== 0 ? (isCompletedItems.length / items.length) * 100 : 0;
-  console.log(percentage);
 
   return (
     <React.Fragment>
